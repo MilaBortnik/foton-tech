@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/gilroy-regular.ttf);
+}
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/gilroy-bold.ttf);
+}
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/gilroy-medium.ttf);
+}
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/gilroy-semibold.ttf);
+}
+*{
+    font-family:"Gilroy";
+    font-style: normal;  
+}
+.header-top{
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+}
+.listnav{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+.section1>h1{
+    font-weight: bold;
+    font-size: 92px;
+    line-height: 111px;
+    text-align: center;
+}
+.section1>p{
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+}
+.section2>h2{
+font-weight: bold;
+font-size: 48px;
+line-height: 97%;
+color: #20242D;
+}
+.section2>p{
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+}
+
+
+
+
+
+
