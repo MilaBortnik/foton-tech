@@ -26,21 +26,27 @@
     font-family:"Gilroy";
     font-style: normal;  
 }
+.headerdiv{
+    background-color: #20242D;
+}
 .addressheader{
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
+color: #FFFFFF;
 }
 .mail{
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
+color: #FFFFFF;
 }
 .tel{
 font-weight: 500;
 font-size: 12px;
 line-height: 14px;
 text-align: right;
+color: #FFFFFF;
 }
 .linknav1{
 font-weight: 600;
@@ -107,6 +113,71 @@ color: #ff7129;
     :focus{
     color: #cc450b;
 }
+.linkfooter1{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color:#FFFFFF;
+    }
+    .linkfooter1:hover{
+    color: #ff7129;
+    }
+    .linkfooter1:active,
+    :focus{
+        color: #cc450b;
+        }
+    .linkfooter2{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color:#FFFFFF;
+    }
+    .linkfooter2:hover{
+    color: #ff7129;
+    }
+    .linkfooter2:active,
+    :focus{
+    color: #cc450b;
+    }
+    .linkfooter3{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color:#FFFFFF;
+        }
+        .linkfooter3:hover{
+        color: #ff7129;
+        }
+        .linkfooter3:active,
+        :focus{
+        color: #cc450b;
+        } 
+        .linkfooter4{
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            color:#FFFFFF;
+            }
+            .linkfooter4:hover{
+            color: #ff7129;
+            }
+            .linkfooter4:active,
+            :focus{
+            color: #cc450b;
+            } 
+            .linkfooter5{
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                color:#FFFFFF;
+                }
+                .linkfooter5:hover{
+                color: #ff7129;
+                }
+                .linkfooter5:active,
+                :focus{
+                color: #cc450b;
+                }           
 .buttonfooter{
 font-weight: bold;
 font-size: 14px;
@@ -117,17 +188,20 @@ width: 187px;
 height: 49px;
 border-color: #FF7129;
 }
-.linkfooter1{
+.link-footer6{
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #7B7E85;  
 }
-.linkfooter2{
+.link-footer7{
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
 color: #7B7E85;
+}
+.footer{
+    background-color: #20242D;
 }
 .titelmain{
 font-weight: bold;
@@ -144,6 +218,13 @@ text-align: center;
     width: 187px;
     height: 49px;
     border-color: #FF7129;
+}
+.buttonmain:hover{
+background-color: #cc5e27;
+}
+.buttonmain:active,
+:focus{
+background-color: #D35E22;
 }
 .sectionmain>p{
     font-weight: normal;
@@ -190,9 +271,81 @@ color: #7B7E85;
 .addresskontakt{
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;   
+line-height: 19px;
+color: #20242D;   
 }
-
+.mailkontakt{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+}
+.telkontakt{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+}
+.sectioninstalacja{
+    background-image: url(../img/foninstal.jpg);
+    min-height: 412px;
+    width: 1600px;
+}
+.titelinstalacja{
+    font-weight: bold;
+font-size: 72px;
+line-height: 87px;
+text-align: center;
+color: #FFFFFF;
+}
+.titelinstalaja2{
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+color: #20242D;
+}
+.titelinstalaja3{
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+}
+.listinstalacja{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+background-color: #F2F2F2;
+}
+.paragraphinstalacja{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;   
+}
+.paragraphinstalacja1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+.paragraphinstalacja2{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #20242D;
+}
+.paragraphinstalacja3{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #20242D;
+}
+.paragraphinstalacja3{
+    background-color: #F5F5F5;
+}
+.articleinstalacja{
+    background-color: #F2F2F2;
+}
 
 
 
