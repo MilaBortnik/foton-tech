@@ -26,41 +26,172 @@
     font-family:"Gilroy";
     font-style: normal;  
 }
-.header-top{
+.addressheader{
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
 }
-.listnav{
+.mail{
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+}
+.tel{
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: right;
+}
+.linknav1{
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color:#20242D;
+}
+.linknav1:hover{
+color: #ff7129;
+}
+.linknav1:active,
+:focus{
+    color: #cc450b;
+    }
+.linknav2{
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
+    color:#20242D;
+    }
+    .linknav2:hover{
+    color: #ff7129;
+    }
+    .linknav2:active,
+    :focus{
+    color: #cc450b;
+}  
+.linknav3{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color:#20242D;
+    }
+    .linknav3:hover{
+    color: #ff7129;
+    }
+    .linknav3:active,
+    :focus{
+        color: #cc450b;    
+} 
+.linknav4{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color:#20242D;
+    }
+    .linknav4:hover{
+    color: #ff7129;
+    }
+    .linknav4:active,
+    :focus{
+        color: #cc450b;    
 }
-.section1>h1{
-    font-weight: bold;
-    font-size: 92px;
-    line-height: 111px;
-    text-align: center;
+.linknav5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color:#20242D;
+    }
+    .linknav5:hover{
+    color: #ff7129;
+    }
+    .linknav5:active,
+    :focus{
+    color: #cc450b;
 }
-.section1>p{
+.buttonfooter{
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+background-color: #20242D;
+width: 187px;
+height: 49px;
+border-color: #FF7129;
+}
+.linkfooter1{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7B7E85;  
+}
+.linkfooter2{
 font-weight: normal;
-font-size: 16px;
-line-height: 24px;
+font-size: 12px;
+line-height: 14px;
+color: #7B7E85;
+}
+.titelmain{
+font-weight: bold;
+font-size: 92px;
+line-height: 111px;
 text-align: center;
 }
-.section2>h2{
-font-weight: bold;
+.buttonmain{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background-color: #FF7129;
+    width: 187px;
+    height: 49px;
+    border-color: #FF7129;
+}
+.sectionmain>p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.sectionmain{
+    background-image: url(../img/indexfon.jpg);
+    min-height: 844px;
+    width: 1600px;
+}
+.titelonas{
+ font-weight: bold;
 font-size: 48px;
 line-height: 97%;
-color: #20242D;
 }
-.section2>p{
-font-weight: normal;
+.sectiononas>p{
+ font-weight: normal;
 font-size: 16px;
 line-height: 24px;
-color: #20242D;
 }
-
+.sectiononasmain{
+    background-image: url(../img/fononas.jpg);
+    min-height: 350px;
+    width: 1600px;
+}
+.titelprojekty{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+}
+.titelkontakt{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+}
+.linkkontakt{
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #7B7E85;
+}
+.addresskontakt{
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;   
+}
 
 
 
