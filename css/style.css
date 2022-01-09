@@ -26,10 +26,10 @@
     font-family:"Gilroy","Arial",sans-serif;
     font-style: normal;  
 }
-.headerdiv{
+.header-div{
     background-color: #20242D;
 }
-.addressheader{
+.address-header{
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
@@ -48,25 +48,25 @@ line-height: 14px;
 text-align: right;
 color: #FFFFFF;
 }
-.linknav{
+.link-nav{
 font-weight: 600;
 font-size: 14px;
 line-height: 17px;
 color:#20242D;
 }
-.linknav:hover{
+.link-nav:hover{
 color: #ff7129;
 }
-.linkfooter{
+.link-footer{
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     color:#FFFFFF;
     }
-    .linkfooter:hover{
+    .link-footer:hover{
     color: #ff7129;
     }     
-.buttonfooter{
+.button-footer{
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
@@ -76,11 +76,11 @@ width: 187px;
 height: 49px;
 border-color: #FF7129;
 }
-.buttonfooter:hover{
+.button-footer:hover{
     background-color: #D35E22;
     }
-.buttonfooter:active,
-.buttonfooter:focus{
+.button-footer:active,
+.button-footer:focus{
 background-color: #f85300;
 }
 .link-footer1{
@@ -89,22 +89,17 @@ background-color: #f85300;
     line-height: 14px;
     color: #7B7E85;  
 }
-.link-footer2{
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-color: #7B7E85;
-}
 .footer{
     background-color: #20242D;
 }
-.titelmain{
+.titel-main{
 font-weight: bold;
 font-size: 92px;
 line-height: 111px;
 text-align: center;
+color: #FFFFFF;
 }
-.buttonmain{
+.button-main{
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
@@ -114,133 +109,81 @@ text-align: center;
     height: 49px;
     border-color: #FF7129;
 }
-.buttonmain:hover{
+.button-main:hover{
 background-color: #D35E22;
 }
-.buttonmain:active,
-.buttonmain:active:focus{
+.button-main:active,
+.button-main:active:focus{
 background-color: #f85300;
 }
-.sectionmain>p{
+.section-main>p{
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
 }
-.sectionmain{
+.section-main{
     background-image: url(../img/indexfon.jpg);
     min-height: 844px;
     width: 1600px;
 }
-.titelonas{
+.titel-onas{
  font-weight: bold;
 font-size: 48px;
 line-height: 97%;
+color: #FFFFFF;
 }
-.sectiononas>p{
+.section-onas>p{
  font-weight: normal;
 font-size: 16px;
 line-height: 24px;
 }
-.sectiononasmain{
+.section-onas-main{
     background-image: url(../img/fononas.jpg);
     min-height: 350px;
     width: 1600px;
 }
-.titelprojekty{
+.titel-projekty{
     font-weight: bold;
     font-size: 48px;
     line-height: 97%;
     color: #20242D;
 }
-.titelkontakt{
+.titel-kontakt{
     font-weight: bold;
     font-size: 48px;
     line-height: 97%;
 }
-.linkkontakt{
+.link-kontakt{
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: #7B7E85;
 }
-.addresskontakt{
+.addres-skontakt{
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: #20242D;   
 }
-.mailkontakt{
+.mail-kontakt{
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #20242D;
 }
-.telkontakt{
+.tel-kontakt{
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
     color: #20242D;
 }
-.sectioninstalacja{
+.section-instalacja{
     background-image: url(../img/foninstal.jpg);
     min-height: 412px;
     width: 1600px;
 }
-.titelinstalacja{
-    font-weight: bold;
-font-size: 72px;
-line-height: 87px;
-text-align: center;
-color: #FFFFFF;
-}
-.titelinstalaja2{
-font-weight: bold;
-font-size: 36px;
-line-height: 44px;
-color: #20242D;
-}
-.titelinstalaja3{
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-}
-.listinstalacja{
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #20242D;
-background-color: #F2F2F2;
-}
-.paragraphinstalacja{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #20242D;   
-}
-.paragraphinstalacja1{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #20242D;
-}
-.paragraphinstalacja2{
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #20242D;
-}
-.paragraphinstalacja3{
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #20242D;
-}
-.paragraphinstalacja3{
-    background-color: #F5F5F5;
-}
-.articleinstalacja{
-    background-color: #F2F2F2;
-}
+
+
 
 
 
