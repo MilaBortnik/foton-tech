@@ -23,7 +23,7 @@
     src: url(../fonts/gilroy-semibold.ttf);
 }
 *{
-    font-family:"Gilroy";
+    font-family:"Gilroy","Arial",sans-serif;
     font-style: normal;  
 }
 .headerdiv{
@@ -48,136 +48,28 @@ line-height: 14px;
 text-align: right;
 color: #FFFFFF;
 }
-.linknav1{
+.linknav{
 font-weight: 600;
 font-size: 14px;
 line-height: 17px;
 color:#20242D;
 }
-.linknav1:hover{
+.linknav:hover{
 color: #ff7129;
 }
-.linknav1:active,
-:focus{
-    color: #cc450b;
-    }
-.linknav2{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color:#20242D;
-    }
-    .linknav2:hover{
-    color: #ff7129;
-    }
-    .linknav2:active,
-    :focus{
-    color: #cc450b;
-}  
-.linknav3{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color:#20242D;
-    }
-    .linknav3:hover{
-    color: #ff7129;
-    }
-    .linknav3:active,
-    :focus{
-        color: #cc450b;    
-} 
-.linknav4{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color:#20242D;
-    }
-    .linknav4:hover{
-    color: #ff7129;
-    }
-    .linknav4:active,
-    :focus{
-        color: #cc450b;    
+.linknav:focus,
+:active{
+    color:#000;
 }
-.linknav5{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color:#20242D;
-    }
-    .linknav5:hover{
-    color: #ff7129;
-    }
-    .linknav5:active,
-    :focus{
-    color: #cc450b;
-}
-.linkfooter1{
+.linkfooter{
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     color:#FFFFFF;
     }
-    .linkfooter1:hover{
+    .linkfooter:hover{
     color: #ff7129;
-    }
-    .linkfooter1:active,
-    :focus{
-        color: #cc450b;
-        }
-    .linkfooter2{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color:#FFFFFF;
-    }
-    .linkfooter2:hover{
-    color: #ff7129;
-    }
-    .linkfooter2:active,
-    :focus{
-    color: #cc450b;
-    }
-    .linkfooter3{
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 17px;
-        color:#FFFFFF;
-        }
-        .linkfooter3:hover{
-        color: #ff7129;
-        }
-        .linkfooter3:active,
-        :focus{
-        color: #cc450b;
-        } 
-        .linkfooter4{
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 17px;
-            color:#FFFFFF;
-            }
-            .linkfooter4:hover{
-            color: #ff7129;
-            }
-            .linkfooter4:active,
-            :focus{
-            color: #cc450b;
-            } 
-            .linkfooter5{
-                font-weight: 600;
-                font-size: 14px;
-                line-height: 17px;
-                color:#FFFFFF;
-                }
-                .linkfooter5:hover{
-                color: #ff7129;
-                }
-                .linkfooter5:active,
-                :focus{
-                color: #cc450b;
-                }           
+    }     
 .buttonfooter{
 font-weight: bold;
 font-size: 14px;
@@ -188,13 +80,20 @@ width: 187px;
 height: 49px;
 border-color: #FF7129;
 }
-.link-footer6{
+.buttonfooter:hover{
+    background-color: #D35E22;
+    }
+.buttonfooter:active,
+:focus{
+background-color: #f85300;
+}
+.link-footer1{
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #7B7E85;  
 }
-.link-footer7{
+.link-footer2{
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
@@ -220,11 +119,11 @@ text-align: center;
     border-color: #FF7129;
 }
 .buttonmain:hover{
-background-color: #cc5e27;
+background-color: #D35E22;
 }
 .buttonmain:active,
 :focus{
-background-color: #D35E22;
+background-color: #f85300;
 }
 .sectionmain>p{
     font-weight: normal;
