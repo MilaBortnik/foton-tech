@@ -25,27 +25,83 @@
 *{
     font-family:"Gilroy","Arial",sans-serif;
     font-style: normal;  
+    margin: 0;
 }
-.header-div{
+.header{
+    width: 100%;
+    min-height: 95px;
+}
+.header-div-black{
+    width: 100%;
     background-color: #20242D;
 }
+.header-div{
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  height: 34px;
+  justify-content: space-between;
+  align-items: center;
+}
+.link-address:nth-child(2){
+    margin-left: auto;
+}
+.address-header{
+    padding-left: 50px;  
+}
+.header-nav{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-header-nav{
+    list-style: none;
+    display: flex;
+}
+.link-nav{
+    padding-right: 56px;
+}
+.header-logo{
+    padding-left: 50px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+.section-main{
+    width: 100%;
+    min-width: 1600px;  
+    text-align: center; 
+}
+.titel-main{
+    padding-top: 271px;
+    padding-right: 319px;
+    padding-left: 320px;
+}
+.paraggraph-main{
+    padding-top: 16px;
+    font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+.button-main-div{
+    padding-top: 59px;
+}
+
 .address-header{
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
 color: #FFFFFF;
 }
-.mail{
+.link-address{
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
-color: #FFFFFF;
-}
-.tel{
-font-weight: 500;
-font-size: 12px;
-line-height: 14px;
-text-align: right;
 color: #FFFFFF;
 }
 .link-nav{
@@ -93,12 +149,12 @@ background-color: #f85300;
     background-color: #20242D;
 }
 .titel-main{
-font-weight: bold;
-font-size: 92px;
-line-height: 111px;
-text-align: center;
-color: #FFFFFF;
-}
+    font-weight: bold;
+    font-size: 92px;
+    line-height: 111px;
+    text-align: center;
+    color: #FFFFFF;
+    }
 .button-main{
     font-weight: bold;
     font-size: 14px;
@@ -181,6 +237,52 @@ color: #20242D;
     background-image: url(../img/foninstal.jpg);
     min-height: 412px;
     width: 1600px;
+}
+.titel-instalacja{
+    font-weight: bold;
+font-size: 72px;
+line-height: 87px;
+text-align: center;
+color: #FFFFFF;
+}
+.titel-paragraph-instalacja{
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+color: #20242D;
+}
+.paragraph-instalacja-1{
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+}
+.paragraph-instalacja{
+    font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+}
+.div-paragraph-instalacja>p{
+    font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #20242D;
+}
+span{
+    color: #f85300;
+}
+.div-paragraph-instalacja{
+    background-color: #F5F5F5;
+}
+.list-instalacja{
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+}
+.list-instalacja{
+    background-color: #F2F2F2;
 }
 
 
