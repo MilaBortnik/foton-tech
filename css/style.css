@@ -47,9 +47,24 @@
 .link-address:nth-child(2){
     margin-left: auto;
 }
+.link-address{
+    margin-right: 50px;
+}
+.link-address{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    }
 .address-header{
     padding-left: 50px;  
 }
+.address-header{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    }
 .header-nav{
     width: 100%;
     max-width: 1600px;
@@ -65,22 +80,40 @@
 .link-nav{
     padding-right: 56px;
 }
+.link-nav{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color:#20242D;
+    }
+    .link-nav:hover{
+    color: #ff7129;
+    }
 .header-logo{
     padding-left: 50px;
     padding-top: 12px;
     padding-bottom: 11px;
 }
+
+
 .section-main{
     width: 100%;
-    min-width: 1600px;  
+    max-width: 1600px;  
     text-align: center; 
 }
 .titel-main{
     padding-top: 271px;
-    padding-right: 319px;
-    padding-left: 320px;
+    
 }
-.paraggraph-main{
+.titel-main{
+    font-weight: bold;
+    font-size: 92px;
+    line-height: 111px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+.paragraph-main{
     padding-top: 16px;
     font-weight: normal;
 font-size: 16px;
@@ -91,28 +124,39 @@ color: #FFFFFF;
 .button-main-div{
     padding-top: 59px;
 }
+.section-main-two{
+ width: 100%;
+ display: flex;
+}
+.main-img{
+    padding-top: 132px;
+    padding-left: 200px;
+    padding-bottom: 115px;
+}
+.paragrah-main-div{
+    margin-left: 60px;
+}
+.titel-main-section-two{
+    padding-top: 201px;
+}
+.titel-main-section-two{
+    font-weight: bold;
+font-size: 48px;
+line-height: 97%;
+color: #20242D;
+}
+.paragraph-main-section-two{
+    padding-top: 64px;
+}
+.paragraph-main-section-two{
+    font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+}
 
-.address-header{
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-color: #FFFFFF;
-}
-.link-address{
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-color: #FFFFFF;
-}
-.link-nav{
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-color:#20242D;
-}
-.link-nav:hover{
-color: #ff7129;
-}
+
+
 .link-footer{
     font-weight: 600;
     font-size: 14px;
@@ -148,13 +192,7 @@ background-color: #f85300;
 .footer{
     background-color: #20242D;
 }
-.titel-main{
-    font-weight: bold;
-    font-size: 92px;
-    line-height: 111px;
-    text-align: center;
-    color: #FFFFFF;
-    }
+
 .button-main{
     font-weight: bold;
     font-size: 14px;
@@ -179,8 +217,9 @@ background-color: #f85300;
 }
 .section-main{
     background-image: url(../img/indexfon.jpg);
+    background-size: cover;
     min-height: 844px;
-    width: 1600px;
+    width: 100%;
 }
 .titel-onas{
  font-weight: bold;
