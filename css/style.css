@@ -270,6 +270,7 @@ background-color: #f85300;
 
 .main{
  width: 100%;
+ max-width: 1600px;
 }
 .main-titel-onas{
     padding-top: 200px;
@@ -285,14 +286,6 @@ background-color: #f85300;
 .main-section-onas{
     background-image: url(../img/fononas.jpg);
 }
-
-
-.main-section-onas-two>p{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #20242D;
-}
 .main-section-onas-two{
     display: flex;
     justify-content: space-between;
@@ -302,20 +295,23 @@ background-color: #f85300;
     padding-left: 200px ;
     padding-bottom: 184px;
     width: 534px;
-    height: 168px;
+    height: 168px;  
 }
 .paragraph-main-onas{
     margin-bottom: 32px;
 }
 .paragraph-main-onas-two{
     padding-top: 80px;
-    padding-right: 266px;
-    margin-left: 66px;
     width: 534px;
     height: 168px;
+    margin-right: 266px;
 }
-
-
+.paragraph-div-main-onas>p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
 
 
 
@@ -325,35 +321,94 @@ background-color: #f85300;
     line-height: 97%;
     color: #20242D;
 }
-.titel-kontakt{
+.titel-projekty{
+    padding-top: 123px;
+    padding-left: 201px;
+    padding-bottom: 34px;
+}
+.projekty-main-img{
+    padding-left: 299px;
+    padding-bottom: 248px;
+    width: 1019px;
+    height: 532px;
+}
+
+
+.kontakt-section-titel{
+    padding-left: 217px;
+    padding-top: 125px;
+}
+.kontakt-section-link{
+    display: flex;
+    justify-content: space-between;
+}
+.kontakt-list{
+    list-style: none;
+    padding-top: 178px;
+}
+.kontakt-link{
+    padding-left: 201px;
+}
+.kontakt-address-link{
+    padding-left: 229px;
+    text-decoration: none;
+}
+.kontakt-mail-list{
+    padding-left: 229px;
+    text-decoration: none;
+}
+.kontakt-tel-list{
+    padding-left: 230px;
+    text-decoration: none;
+}
+.kontakt-list-li{
+    padding-top: 54px;
+}
+.kontakt-img{
+    background-image: url(../img/maps.jpg);
+}
+.kontakt-list{
+    padding-bottom: 174px;
+}
+
+
+
+.kontakt-titel{
     font-weight: bold;
     font-size: 48px;
     line-height: 97%;
 }
-.link-kontakt{
+.kontakt-link{
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: #7B7E85;
 }
-.addres-skontakt{
+.kontakt-address-list{
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: #20242D;   
 }
-.mail-kontakt{
+.kontakt-mail-list{
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #20242D;
 }
-.tel-kontakt{
+.kontakt-tel-list{
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
     color: #20242D;
 }
+
+
+
+
+
+
+
 .section-instalacja{
     background-image: url(../img/foninstal.jpg);
     min-height: 412px;
