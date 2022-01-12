@@ -94,64 +94,10 @@
     padding-top: 12px;
     padding-bottom: 11px;
 }
-.section-main{
-    width: 100%;
-    max-width: 1600px;  
-    text-align: center; 
-}
-.titel-main{
-    padding-top: 271px;
-}
-.titel-main{
-    font-weight: bold;
-    font-size: 92px;
-    line-height: 111px;
-    text-align: center;
-    color: #FFFFFF;
-    }
-.paragraph-main{
-    padding-top: 16px;
-    font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-color: #FFFFFF;
-}
-.button-main-div{
-    padding-top: 59px;
-}
-.section-main-two{
- width: 100%;
- display: flex;
-}
-.main-img{
-    padding-top: 132px;
-    padding-left: 200px;
-    padding-bottom: 115px;
-}
-.paragrah-main-div{
-    margin-left: 60px;
-    max-width: 535px;
-    max-height: 216px;
-}
-.titel-main-section-two{
-    padding-top: 201px;
-}
-.titel-main-section-two{
-    font-weight: bold;
-font-size: 48px;
-line-height: 97%;
-color: #20242D;
-}
-.paragraph-main-section-two{
-    padding-top: 64px;
-}
-.paragraph-main-section-two{
-    font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-color: #20242D;
-}
+
+
+
+
 .footer{
     width: 100%;
     background-color: #20242D;
@@ -201,10 +147,9 @@ color: #20242D;
     padding-left: 50px;
     padding-right: 50px;
 }
-
-
-
-
+.footer-line{
+    border-bottom: 1px solid #7B7E85;
+}
 .button-footer{
 font-weight: bold;
 font-size: 14px;
@@ -232,6 +177,78 @@ background-color: #f85300;
     background-color: #20242D;
 }
 
+
+
+.section-main{
+    width: 100%;
+    max-width: 1600px;  
+    text-align: center; 
+}
+.titel-main{
+    padding-top: 271px;
+}
+.titel-main{
+    font-weight: bold;
+    font-size: 92px;
+    line-height: 111px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+.paragraph-main{
+    padding-top: 16px;
+    font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+.button-main-div{
+    padding-top: 59px;
+}
+.section-main-two{
+ width: 100%;
+ display: flex;
+}
+.main-img{
+    padding-top: 132px;
+    padding-left: 200px;
+    padding-bottom: 115px;
+}
+.paragrah-main-div{
+    margin-left: 60px;
+    max-width: 535px;
+    max-height: 216px;
+}
+.titel-main-section-two{
+    padding-top: 201px;
+}
+.titel-main-section-two{
+font-weight: bold;
+font-size: 48px;
+line-height: 97%;
+color: #20242D;
+padding-left: 82px;
+}
+.paragraph-main-section-two{
+    padding-top: 64px;
+}
+.paragraph-main-section-two{
+ font-weight: normal;
+font-size: 16px;
+color: #20242D;
+padding-left: 65px;
+}
+.section-main>p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.section-main{
+    background-image: url(../img/indexfon.jpg);
+    background-size: cover;
+    min-height: 844px;
+    width: 100%;
+}
 .button-main{
     font-weight: bold;
     font-size: 14px;
@@ -249,33 +266,59 @@ background-color: #D35E22;
 .button-main:active:focus{
 background-color: #f85300;
 }
-.section-main>p{
+
+
+.main{
+ width: 100%;
+}
+.main-titel-onas{
+    padding-top: 200px;
+    padding-left: 217px;
+    padding-bottom: 103px;
+}
+.main-titel-onas{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #FFFFFF;
+}
+.main-section-onas{
+    background-image: url(../img/fononas.jpg);
+}
+
+
+.main-section-onas-two>p{
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    color: #20242D;
 }
-.section-main{
-    background-image: url(../img/indexfon.jpg);
-    background-size: cover;
-    min-height: 844px;
-    width: 100%;
+.main-section-onas-two{
+    display: flex;
+    justify-content: space-between;
 }
-.titel-onas{
- font-weight: bold;
-font-size: 48px;
-line-height: 97%;
-color: #FFFFFF;
+.paragraph-div-main-onas{
+    padding-top: 80px;
+    padding-left: 200px ;
+    padding-bottom: 184px;
+    width: 534px;
+    height: 168px;
 }
-.section-onas>p{
- font-weight: normal;
-font-size: 16px;
-line-height: 24px;
+.paragraph-main-onas{
+    margin-bottom: 32px;
 }
-.section-onas-main{
-    background-image: url(../img/fononas.jpg);
-    min-height: 350px;
-    width: 1600px;
+.paragraph-main-onas-two{
+    padding-top: 80px;
+    padding-right: 266px;
+    margin-left: 66px;
+    width: 534px;
+    height: 168px;
 }
+
+
+
+
+
 .titel-projekty{
     font-weight: bold;
     font-size: 48px;
