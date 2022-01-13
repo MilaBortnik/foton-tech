@@ -228,7 +228,7 @@ color: #FFFFFF;
 .main-titel{
     padding-top: 271px;
 }
-..main-paragraph{
+.main-paragraph{
     padding-top: 16px;
 }
 .main-button{
@@ -271,7 +271,56 @@ color: #20242D;
 .main-titel-subtitel{
     padding-bottom: 64px;
 }
+.main-section-about{
+    background-image: url(../img/fononas.jpg);
+    height: 350px;
+}
 
+
+.main{
+    width: 100%;
+    max-width: 1600px;
+}
+.titel-about{
+font-weight: bold;
+font-size: 48px;
+line-height: 97%;
+color: #FFFFFF;
+}
+.titel-about{
+    padding-top:200px;
+    padding-left: 217px;
+    padding-bottom: 103px;
+}
+.main-section-about-two{
+    display: flex;
+    justify-content: center;
+    min-height: 432px;
+}
+.paragraph-about{
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+padding-bottom: 32px;
+}
+.paragraph-about-two{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;   
+}
+.main-paragraph-container{
+    max-width: 534px;
+    max-height: 168px;
+    margin-top: 80px;  
+}
+.main-paragraph-container-two{
+    max-width: 534px;
+    max-height: 72px;
+    margin-left: 66px; 
+    margin-top: 80px;
+}
 
 
 
