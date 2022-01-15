@@ -22,107 +22,104 @@
     font-weight: 600;
     src: url(../fonts/gilroy-semibold.ttf);
 }
-*::before, *::after {
-    box-sizing: inherit;
-}
 *{
     font-family:"Gilroy","Arial",sans-serif;
     font-style: normal;
     margin: 0;
     padding: 0;
 }
-html {
+*{
     box-sizing: content-box;
 }
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+
 .footer{
     width: 100%;
-    background-color: #20242D;
-}
-.footer--box-item{
-    width: 100%;
-    max-width: 1600px;
     margin: 0 auto;
+    min-height: 207px;
+    background-color: #20242D;   
+}
+.footer-container{
+    max-width: 1600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 207px;
-}
-.footer-list{
-    list-style: none;
-    display: flex;  
-}
-.link-footer{
-    margin-right: 56px;
-    align-items: center;
-}
-.footer-list>a:last-child {
-    margin-right: 0;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .footer-logo{
+    padding-top: 58px;
+    padding-bottom: 77px;
+}
+.footer-button{
+    padding-top: 66px;
+    padding-bottom: 70px;
+}
+.footer-list{
+    display: flex;
+    list-style: none;
+}
+.link-footer{
+    padding-right: 56px;
+    text-decoration: none;
+}
+.footer-content-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-right: 50px;
     padding-left: 50px;
 }
 .link-footer{
     font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color:#FFFFFF;
-    }
-    .link-footer:hover{
-    color: #ff7129;
-    }   
-    .footer-button-div{
-        padding-right: 50px;
-    }
-.footer-link-div-two{
-    width: 100%;
-    max-width: 1600px;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.link-footer1{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.button-footer{
-font-weight: bold;
 font-size: 14px;
 line-height: 17px;
 color: #FFFFFF;
-background-color: #20242D;
-width: 187px;
+}
+.link-footer:hover{
+    color: #FF7129;
+    }
+    .link-footer:focus,
+    .link-footerr:active{
+    color: #FF7129;  
+    }
+.button-footer{
+    font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #FFFFFF;
+ background-color: #20242D;
+ width: 187px;
 height: 49px;
-border-color: #FF7129;
 }
 .button-footer:hover{
     background-color: #D35E22;
-    }
-.button-footer:active,
-.button-footer:focus{
-background-color: #f85300;
+}
+.button-footer:focus,
+.button-footer:active{
+    background-color: #d3906e;
 }
 .link-footer1{
     font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    color: #7B7E85;  
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: #7B7E85;
 }
-.footer{
-    background-color: #20242D;
-}
+
+
 
   .header{
       width: 100%;
-      max-width: 1600px;
       margin: 0 auto;
   }
-.header-box-black{
-    background-color: #20242D;
-}
+
 .header-box{
     width: 100%;
     max-width: 1600px;
@@ -131,9 +128,10 @@ background-color: #f85300;
     justify-content: space-between;
     min-height: 34px;
     align-items: center;
+    background-color: #20242D;
 }
 .header-addres{
-    font-weight: normal;
+     font-weight: normal;
 font-size: 12px;
 line-height: 14px;
 color: #FFFFFF;
@@ -142,7 +140,6 @@ margin-left: 50px;
 
 .header-box:nth-child(2){
     margin-left: auto;
-
 }
 .header-link{
     margin-right: 50px;
@@ -185,12 +182,17 @@ color: #FF7129;
     margin-left: 50px;
 }
 
+
+
 .main-section{
     background-image: url(../img/indexfon.jpg);
     min-height: 844px;
 }
 .main-section{
- text-align: center;
+    display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
 }
 .main-titel{
     font-weight: bold;
@@ -205,6 +207,10 @@ font-size: 16px;
 line-height: 24px;
 text-align: center;
 color: #FFFFFF;
+padding-top: 16px;
+}
+.main-button{
+    padding-top: 59px;
 }
 .button-main{
     font-weight: bold;
@@ -225,20 +231,12 @@ color: #FFFFFF;
 .button-main:active{
     background-color: #d3906e;
 }
-.main-titel{
-    padding-top: 271px;
-}
-.main-paragraph{
-    padding-top: 16px;
-}
-.main-button{
-    padding-top: 59px;
-}
 .main-section-text{
     width: 100%;
     max-width: 1600px;
+    min-height: 847px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -247,6 +245,8 @@ color: #FFFFFF;
 font-size: 48px;
 line-height: 97%;
 color: #20242D;
+margin-left: 81px;
+padding-bottom: 64px;
 }
 .main-paragraph-text{
     font-weight: normal;
@@ -254,22 +254,11 @@ font-size: 16px;
 line-height: 24px;
 color: #20242D;
 }
-.text-main{
-    width: 535px;
-    max-height: 216px;
-    margin-right: 200px;
-    margin-left: 66px;
-}
-.main-img{
-    margin-left: 200px;
-    margin-top: 132px;
-    margin-bottom: 115px;
-}
 .main-paragraph-text{
+    max-width: 532px;
+    max-height: 216px;
+    margin-left: 66px;
     padding-bottom: 32px;
-}
-.main-titel-subtitel{
-    padding-bottom: 64px;
 }
 .main-section-about{
     background-image: url(../img/fononas.jpg);
@@ -277,9 +266,10 @@ color: #20242D;
 }
 
 
+
 .main{
     width: 100%;
-    max-width: 1600px;
+    margin: 0 auto;
 }
 .titel-about{
 font-weight: bold;
@@ -324,3 +314,168 @@ padding-bottom: 32px;
 
 
 
+.titel-projekty{
+    margin-top: 123px;
+    margin-left: 201px;
+    margin-bottom: 34px;
+}
+.projekty-main-img{
+    padding-top: 37px;
+    padding-left: 299px;
+    padding-bottom: 153px;
+}
+
+.kontakt-titel{
+    font-weight: bold;
+font-size: 48px;
+line-height: 97%;
+color: #20242D;
+padding-top: 125px;
+padding-left: 217px;
+padding-bottom: 67px;
+}
+.kontakt-section-link{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kontakt-link{
+    padding-left: 201px;
+    font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #7B7E85;
+padding-top: 54px;
+}
+.kontakt-mail-list{
+padding-left: 229px;
+font-size: 16px;
+line-height: 19px;
+color: #20242D;
+}
+.kontakt-address-link{
+    padding-left: 229px; 
+    font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #20242D; 
+}
+.kontakt-tel-list{
+    padding-left: 230px;
+    font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #20242D;
+}
+.kontakt-img{
+    background-image: url(../img/maps.jpg);
+    width: 800px;
+    height: 543px;
+}
+.kontakt-list{
+    padding-bottom: 174px;
+}
+
+
+
+
+
+
+.section-installasion{
+    background-image: url(../img/foninstal.jpg);
+    max-width: 1600px;
+    min-height: 412px;
+}
+.titel-installasion{
+    font-weight: bold;
+font-size: 72px;
+line-height: 87px;
+color: #FFFFFF;
+padding-left: 451px;
+padding-top: 162px;
+}
+.installasia-box{
+    mix-width: 1600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 152px;
+}
+.installasion-text{
+    max-width: 700px;
+    padding-bottom: 64px;
+}
+
+.titel-paragraph-installasion{
+    padding-bottom: 32px;
+    font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+color: #20242D;
+}
+.paragraph-installasion-1{
+    padding-bottom: 24px;
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+}
+.paragraph-installasion{
+padding-bottom: 24px;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+padding-bottom: 24px;
+}
+.installasion-img{
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph-installasion-box{
+     background-color: #F5F5F5;
+width: 698px;
+height: 122px;
+
+}
+.paragraph-installasion-2{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #20242D;
+    width: 650px;
+    height: 950px;
+    padding: 16px 24px;
+}
+.paragraph-installasion-box-one{
+    background-color: #F5F5F5;
+    width: 700px;
+    height: 236px;
+    padding-top: 66px;
+}
+.paragraph-installasion-3{
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+padding: 32px 24px;
+width: 652px;
+height: 96px;
+}
+span{
+    color: #FF7129;
+}
+.list-installasion{
+    padding-bottom: 32px;
+}
+.installasion-list{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #20242D;
+padding-bottom: 32px;
+}
