@@ -60,9 +60,6 @@
 .footer-list li:last-child .link-footer{
     padding-right: 0;
 }
-.link-footer{
-    padding-right: 56px;
-}
 .footer-content-link{
     display: flex;
     justify-content: space-between;
@@ -77,6 +74,7 @@ font-size: 14px;
 line-height: 17px;
 color: #FFFFFF;
 text-decoration: none;
+padding-right: 56px;
 }
 .link-footer:hover{
     color: #FF7129;
@@ -133,15 +131,12 @@ margin-left: 50px;
 }
 .header-link:first-child{
     padding-right: 77px;
-}
+}   
 .header-link{
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #fff;
-}
-.header-link:first-child{
-    
 }
 .header-box{
     min-height: 57px;
@@ -182,13 +177,13 @@ color: #FF7129;
     min-height: 844px;
 }
 .main-section{
-display: flex;
+    display: flex;
 align-items: center;
 flex-direction: column;
 justify-content: center;
 }
 .main-titel{
-font-weight: bold;
+    font-weight: bold;
 font-size: 92px;
 line-height: 111px;
 text-align: center;
@@ -231,13 +226,6 @@ color: #FFFFFF;
     justify-content: center;
     align-items: center;
 }
-.main-titel-subtitel{
-font-weight: bold;
-font-size: 48px;
-line-height: 97%;
-color: #20242D;
-padding-bottom: 64px;
-}
 .main-paragraph-text{
 font-weight: normal;
 font-size: 16px;
@@ -258,18 +246,16 @@ padding-bottom: 32px;
     height: 350px;
 }
 
-.titel-about{
+.title-about{
 font-weight: bold;
 font-size: 48px;
 line-height: 97%;
 color: #FFFFFF;
+padding-top:200px;
+padding-left: 217px;
+padding-bottom: 103px;
 }
-.titel-about{
-    padding-top:200px;
-    padding-left: 217px;
-    padding-bottom: 103px;
-}
-.main-section-about-two{
+.section-about-text{
     display: flex;
     justify-content: center;
     min-height: 432px;
@@ -292,7 +278,7 @@ padding-bottom: 32px;
     max-height: 168px;
     margin-top: 80px;  
 }
-.main-paragraph-container-two{
+.section-about-text-two{
     max-width: 534px;
     max-height: 72px;
     margin-left: 66px; 
@@ -301,7 +287,7 @@ padding-bottom: 32px;
 
 
 
-.titel-projekty{
+.title-projekty{
     margin-top: 123px;
     margin-left: 201px;
     margin-bottom: 34px;
@@ -312,28 +298,28 @@ padding-bottom: 32px;
     padding-bottom: 153px;
 }
 
-.kontakt-titel{
+.title-subtitle{
     font-weight: bold;
 font-size: 48px;
 line-height: 97%;
 color: #20242D;
 }
-.kontakt-section-titel .kontakt-titel {
+.contacts-section-titel .title-subtitle {
     padding-top: 125px;
     padding-left: 217px;
     padding-bottom: 67px;
 }
-.text-main .kontakt-titel {
+.text-main .title-subtitle {
     padding-bottom: 64px;
 }
-.kontakt-section-link{
+.contacts-section-link{
     width: 100%;
     max-width: 1600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.kontakt-link{
+.contacts-link{
     padding-left: 201px;
     font-weight: normal;
 font-size: 16px;
@@ -341,46 +327,43 @@ line-height: 19px;
 color: #7B7E85;
 padding-top: 54px;
 }
-.kontakt-mail-list{
+.contacts-mail-list{
 padding-left: 229px;
 font-size: 16px;
 line-height: 19px;
 color: #20242D;
 }
-.kontakt-address-link{
+.contacts-address-link{
     padding-left: 229px; 
     font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: #20242D; 
 }
-.kontakt-tel-list{
+.contacts-tel-list{
     padding-left: 230px;
     font-weight: 600;
 font-size: 16px;
 line-height: 19px;
 color: #20242D;
 }
-.kontakt-img{
+.contacts-img{
     background-image: url(../img/maps.jpg);
     width: 800px;
     height: 543px;
 }
-.kontakt-list{
+.contacts-list{
     padding-bottom: 174px;
 }
 
 
 
-
-
-
-.section-installasion{
+.section-installation{
     background-image: url(../img/foninstal.jpg);
     max-width: 1600px;
     min-height: 412px;
 }
-.titel-installasion{
+.title-installation{
     font-weight: bold;
 font-size: 72px;
 line-height: 87px;
@@ -388,7 +371,7 @@ color: #FFFFFF;
 padding-left: 451px;
 padding-top: 162px;
 }
-.installasia-box{
+.installation-box{
     mix-width: 1600px;
     display: flex;
     align-items: center;
@@ -396,26 +379,26 @@ padding-top: 162px;
     margin-top: 120px;
     margin-bottom: 152px;
 }
-.installasion-text{
+.installation-text{
     max-width: 700px;
     padding-bottom: 64px;
 }
 
-.titel-paragraph-installasion{
+.title-paragraph-installation{
     padding-bottom: 32px;
     font-weight: bold;
 font-size: 36px;
 line-height: 44px;
 color: #20242D;
 }
-.paragraph-installasion-1{
+.paragraph-installation-one{
     padding-bottom: 24px;
     font-weight: 600;
 font-size: 16px;
 line-height: 24px;
 color: #20242D;
 }
-.paragraph-installasion{
+.paragraph-installation{
 padding-bottom: 24px;
 font-weight: normal;
 font-size: 16px;
@@ -423,18 +406,18 @@ line-height: 24px;
 color: #20242D;
 padding-bottom: 24px;
 }
-.installasion-img{
+.installation-img{
     padding-bottom: 24px;
     display: flex;
     justify-content: space-between;
 }
-.paragraph-installasion-box{
+.paragraph-installation-box{
      background-color: #F5F5F5;
 width: 698px;
 height: 122px;
 
 }
-.paragraph-installasion-2{
+.paragraph-installation-two{
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
@@ -449,7 +432,7 @@ height: 122px;
     height: 236px;
     padding-top: 66px;
 }
-.paragraph-installasion-3{
+.paragraph-installasion-three{
 font-weight: normal;
 font-size: 16px;
 line-height: 24px;
