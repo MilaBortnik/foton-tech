@@ -111,6 +111,31 @@ color: #7B7E85;
   .header{
       width: 100%;
   }
+  .header-link{
+      position: relative;
+      content: "";
+  }
+  .header-link{
+      position: relative;
+      content: "";
+  }
+  .header-link::before,
+  .header-link:first-child::before{
+      position: absolute;
+      content: "";
+      width: 14px;
+      height: 14px;
+      background-position: center;
+      background-repeat: no-repeat;
+      left: -23px;
+      top: 2px;
+    }
+    .header-link::before{
+        background-image: url(../img/tellnav.svg);
+    }
+  .header-link:first-child::before{
+      background-image: url(../img/mailnav.svg);
+  }
 .header-box-black{
     width: 100%;
     display: flex;
@@ -130,7 +155,7 @@ margin-left: 50px;
     margin-right: 50px;
 }
 .header-link:first-child{
-    padding-right: 77px;
+    margin-right: 77px;
 }   
 .header-link{
     font-weight: normal;
@@ -156,7 +181,7 @@ font-size: 14px;
 line-height: 17px;
 color: #20242D;
 text-decoration: none;
-padding-left: 56px;
+margin-left: 56px;
 }
 .link-header:hover{
 color: #FF7129;
@@ -164,6 +189,42 @@ color: #FF7129;
 .link-header:focus,
 .link-header:active{
     color: #FF7129;  
+}
+.link-header{
+    position: relative;
+    content: "";
+}
+.link-header:active::before,
+.link-header:active::after{
+    position: absolute;
+    content: "";
+    background-color: #FF7129;
+    width: 10px;
+    height: 1px;
+    top: 8px;
+}
+.link-header:active::after{
+    right: -18px;   
+}
+.link-header:active::before{
+    left: -18px;
+}
+
+
+.link-header:hover::before,
+.link-header:hover::after{
+    position: absolute;
+    content: "";
+    background-color: #FF7129;
+    width: 10px;
+    height: 1px;
+    top: 8px;
+}
+.link-header:hover::after{
+    right: -18px;   
+}
+.link-header:hover::before{
+    left: -18px;
 }
 
 
@@ -226,6 +287,18 @@ color: #FFFFFF;
     justify-content: center;
     align-items: center;
 }
+.title-subtitle{
+    position: relative;
+    content: "";
+}
+.title-subtitle::before{
+    position: absolute;
+    content: "";
+    background-color: #FF7129;
+    width: 1px;
+    height: 52px;
+    left: -17px;
+}
 .main-paragraph-text{
 font-weight: normal;
 font-size: 16px;
@@ -236,7 +309,7 @@ max-height: 216px;
 padding-bottom: 32px;
 }
 .text-main{
-    margin-left: 66px;
+    margin-left: 65px;
 }
 
 
@@ -306,11 +379,12 @@ color: #20242D;
 }
 .contacts-section-titel .title-subtitle {
     padding-top: 125px;
-    padding-left: 217px;
+    margin-left: 217px;
     padding-bottom: 67px;
 }
 .text-main .title-subtitle {
     padding-bottom: 64px;
+    margin-left: 17px;
 }
 .contacts-section-link{
     width: 100%;
@@ -320,32 +394,78 @@ color: #20242D;
     justify-content: space-between;
 }
 .contacts-link{
-    padding-left: 201px;
     font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: #7B7E85;
 padding-top: 54px;
+padding-bottom: 12px;
+
 }
 .contacts-mail-list{
-padding-left: 229px;
 font-size: 16px;
 line-height: 19px;
 color: #20242D;
+margin-left: 28px;
+
+text-decoration: none;
 }
 .contacts-address-link{
-    padding-left: 229px; 
     font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: #20242D; 
+margin-left: 28px;
+
 }
 .contacts-tel-list{
-    padding-left: 230px;
     font-weight: 600;
 font-size: 16px;
 line-height: 19px;
 color: #20242D;
+margin-left: 29px;
+text-decoration: none;
+}
+.contacts-address-link,
+.contacts-mail-list,
+.contacts-tel-list{
+    position: relative;
+}
+.contacts-address-link::before{
+    position: absolute;
+    content: "";
+    background-image: url(../img/addrescontact.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 15px;
+    left: -26px;  
+}
+.contacts-tel-list::before{
+    position: absolute;
+    content: "";
+    background-image: url(../img/tellnav.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    left: -26px;  
+    top: 2px;
+}
+.contacts-mail-list::before{
+    position: absolute;
+    content: "";
+    background-image: url(../img/mailnav.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    left: -26px;  
+    top: 2px;
+}
+
+.contacts-list-li{
+    padding-left: 201px;
 }
 .contacts-img{
     background-image: url(../img/maps.jpg);
@@ -383,14 +503,42 @@ padding-top: 162px;
     max-width: 700px;
     padding-bottom: 64px;
 }
-
-.title-paragraph-installation{
-    padding-bottom: 32px;
+.installation-text-last{
+    max-width: 700px;
+}
+.title-paragraph-installation,
+.title--installation-last{
     font-weight: bold;
 font-size: 36px;
 line-height: 44px;
 color: #20242D;
 }
+.title-paragraph-installation{
+    margin-left: 16px;
+    padding-bottom: 32px;
+}
+.title--installation-last{
+    margin-left: 41px;
+}
+.title-paragraph-installation,
+.title--installation-last{
+    position: relative;
+    content: "";
+}
+.title-paragraph-installation::before,
+.title--installation-last::before{
+    position: absolute;
+    content: "";
+    background-color: #FF7129;
+    width: 1px;
+    height: 42px;
+    left: -16px;
+}
+.title--installation-last{
+    margin-right: 41px;
+    padding-top: 32px;
+}
+
 .paragraph-installation-one{
     padding-bottom: 24px;
     font-weight: 600;
@@ -406,6 +554,9 @@ line-height: 24px;
 color: #20242D;
 padding-bottom: 24px;
 }
+.paragraph-installation:last-child{
+    padding-bottom: 0;
+}
 .installation-img{
     padding-bottom: 24px;
     display: flex;
@@ -415,7 +566,6 @@ padding-bottom: 24px;
      background-color: #F5F5F5;
 width: 698px;
 height: 122px;
-
 }
 .paragraph-installation-two{
     font-weight: normal;
@@ -430,7 +580,6 @@ height: 122px;
     background-color: #F5F5F5;
     width: 700px;
     height: 236px;
-    padding-top: 66px;
 }
 .paragraph-installasion-three{
 font-weight: normal;
@@ -446,6 +595,8 @@ span{
 }
 .list-installasion{
     padding-bottom: 32px;
+    list-style: none; 
+    margin-left: 57px;
 }
 .installasion-list{
 font-weight: 500;
@@ -454,3 +605,21 @@ line-height: 24px;
 color: #20242D;
 padding-bottom: 32px;
 }
+.installasion-list{
+    position: relative;
+    content: "";
+}
+.installasion-list:last-child{
+    padding-bottom: 0;
+}
+.installasion-list::before{
+    position: absolute;
+    content: "";
+    background-image: url(../img/listinstal.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    left: -37px;
+}
+
