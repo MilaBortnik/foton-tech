@@ -66,8 +66,6 @@
     padding-right: 0;
 }
 .footer-content-link{
-    max-width: 1600px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,13 +120,25 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    text-align: center;
-    color: #7B7E85;
+    text-align: center;  
+    color: #7B7E85;  
 }
 
 
   .header{
       width: 100%;
+      max-width: 1600px;
+      margin: 0 auto;
+      position: relative;
+      content: "";
+    
+  }
+  .header::after{
+      position: absolute;
+      content: "";
+      width: 1600px;
+      height: 1px;
+     background-color: #EFF1F5;
   }
   .header-link{
       position: relative;
@@ -158,7 +168,6 @@
       background-image: url(../img/mailnav.svg);
   }
 .header-box-black{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     min-height: 34px;
@@ -201,6 +210,7 @@
     text-decoration: none;
     margin-left: 56px;
 }
+
 .link-header:hover{
     color: #FF7129;
 }
@@ -245,8 +255,17 @@
 
 .main{
     width: 100%;
+    min-width: 1600px;
+    margin: 0 auto;
 }
 .main-section{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     content: "";
     background-image:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), url(../img/indexfon.jpg);
@@ -288,12 +307,6 @@
     bottom: 282px; 
     right: 50px;
 }
-.main-section{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
- }
 .main-titel{
     font-weight: bold;
     font-size: 92px;
@@ -392,6 +405,9 @@
 
 
 .main-section-about{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
     background-image:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), url(../img/fononas.jpg);
     height: 350px;
     position: relative;
@@ -471,6 +487,9 @@
     padding-bottom: 153px;
 }
 .projekty-main{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
     position: relative;
     content: "";
 }
@@ -503,9 +522,13 @@
 .contacts-section-titel .title-subtitle {
     padding-top: 125px;
     margin-left: 217px;
-    padding-bottom: 67px;
+    margin-bottom: 67px;
+    position: relative;
 }
 .contacts-section-titel{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
     position: relative;
     content: "";
 }
@@ -529,6 +552,7 @@
 .contacts-section-link{
     width: 100%;
     max-width: 1600px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -611,14 +635,41 @@ text-decoration: none;
     background-image: url(../img/maps.jpg);
     width: 800px;
     height: 543px;
+    position: relative;
+}
+.contacts-img::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 782px;
+    background-color: #7B7E85;
+    opacity: 0.15;
+    left: 0;
+    top: -240px;
 }
 .contacts-list{
     padding-bottom: 174px;
+    position: relative;
+    content: "";
 }
+.contacts-list::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 782px;
+    background-color: #7B7E85;
+    opacity: 0.15;
+    left: 200px;
+    top: -265px;
+}
+
 
 
 
 .section-installation{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
     background-image:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), url(../img/foninstal.jpg);
     max-width: 1600px;
     min-height: 412px;
@@ -672,7 +723,25 @@ text-decoration: none;
     align-items: center;
     flex-direction: column;
     margin-top: 120px;
-    margin-bottom: 152px;
+    margin-bottom: 120px;
+    position: relative;
+    content: "";
+}
+.installation-box::before,
+.installation-box::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 3582px;
+    background: #7B7E85;
+    opacity: 0.15;
+    top: -120px;
+}
+.installation-box::before{
+    left: 200px;
+}
+.installation-box::after{
+    right: 200px;
 }
 .installation-text{
     max-width: 700px;
@@ -713,7 +782,6 @@ text-decoration: none;
     margin-right: 41px;
     padding-top: 32px;
 }
-
 .paragraph-installation-one{
     padding-bottom: 24px;
     font-weight: 600;
@@ -798,3 +866,19 @@ span{
     margin-bottom: 24px;
 }
 
+
+.main-box-popup{
+    position: fixed;
+    background-color: black;
+    opacity: 0.9;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.popup-box{
+    width: 800px;
+    height: 596px;
+    background-color: white;
+}
