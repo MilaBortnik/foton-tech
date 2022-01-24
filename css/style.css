@@ -877,8 +877,7 @@ span{
     right: 0;
     bottom: 0;
     
-    visibility: hidden;
-    opacity: 0;
+   display: none;
 }
 .popup-body{
     height: 100%;
@@ -1031,8 +1030,7 @@ background: #20242D;
     left: 0;
     right: 0;
 
-    visibility: hidden;
-    opacity: 0;
+    display: none;
     
 }
 .popup-middel-body{
@@ -1133,8 +1131,7 @@ background: #20242D;
     left: 0;
     right: 0;
 
-    visibility: hidden;
-    opacity: 0;
+    display: none;
     
 }
 .popup-finish-body{
