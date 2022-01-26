@@ -876,8 +876,7 @@ span{
     top: 0;
     right: 0;
     bottom: 0;
-    
-   display: none;
+    display: none;
 }
 .popup-body{
     height: 100%;
@@ -897,6 +896,17 @@ span{
     padding-top: 97px;
     position: relative;
     content: "";
+}
+.popup-text::after{
+    position: absolute;
+    content: "";
+    background-image: url(../img/closeblack.svg);
+    width: 13px;
+    height: 13px;
+    background-color: none;
+    border: none;
+    right: 22px;
+    top: 22px;
 }
 .popup-text::before{
     position: absolute;
@@ -1018,7 +1028,6 @@ background: #20242D;
 
 
 
-
 .popup-middle{
     position: fixed;
     width: 100%;
@@ -1031,6 +1040,7 @@ background: #20242D;
     right: 0;
 
     display: none;
+    opacity: 0;
     
 }
 .popup-middel-body{
@@ -1039,12 +1049,26 @@ background: #20242D;
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 .popup-middle-text{
     width: 100%;
     max-width: 800px;
     max-height: 717px;
     background-color: white;
+    position: relative;
+    content: "";
+}
+.popup-middle-text::after{
+    position: absolute;
+    content: "";
+    background-image: url(../img/closew.svg);
+    width: 13px;
+    height: 13px;
+    background-color: none;
+    border: none;
+    right: 22px;
+    top: 22px;
 }
 .subtitle{
     font-weight: bold;
@@ -1132,7 +1156,8 @@ background: #20242D;
     right: 0;
 
     display: none;
-    
+    opacity: 0;
+   
 }
 .popup-finish-body{
     width: 100%;
@@ -1153,6 +1178,28 @@ background: #20242D;
     position: relative;
     content: "";
 }
+.popup-finish-text::after{
+    position: absolute;
+    content: "";
+    background-image: url(../img/closew.svg);
+    width: 13px;
+    height: 13px;
+    background-color: none;
+    border: none;
+    right: 22px;
+    top: 22px;
+}
+.popup-finish-text::before{
+    position: absolute;
+    content: "";
+    background-image: url(../img/ok.svg);
+    width: 80px;
+    height: 57px;
+    background-color: none;
+    border: none;
+    top: 93px;
+}
+
 .finisf-title{
     font-weight: bold;
 font-size: 48px;
@@ -1182,8 +1229,8 @@ padding-top: 24px;
     left: 0;
     right: 0;
 
-    visibility: hidden;
-    opacity: 0;
+display: none;
+    
 }
 .popup-footer-body{
     width: 100%;
@@ -1203,6 +1250,18 @@ padding-top: 24px;
     position: relative;
     content: "";
 }
+.popup-footer-text::after{
+    position: absolute;
+    content: "";
+    background-image: url(../img/closeblack.svg);
+    width: 13px;
+    height: 13px;
+    background-color: none;
+    border: none;
+    right: 22px;
+    top: 22px;
+}
+
 .popup-footer-text .title-subtitle{
     margin-left: 17px;
 }
