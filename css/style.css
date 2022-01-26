@@ -870,8 +870,7 @@ span{
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: black;
-    opacity: 0.9;
+    background-color: rgba(32, 36, 45, 0.9);
     left: 0;
     top: 0;
     right: 0;
@@ -884,7 +883,6 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .popup-text{
     max-height:596px;
@@ -897,16 +895,16 @@ span{
     position: relative;
     content: "";
 }
-.popup-text::after{
+.closebtn .closebtn{
     position: absolute;
     content: "";
     background-image: url(../img/closeblack.svg);
     width: 13px;
     height: 13px;
-    background-color: none;
-    border: none;
-    right: 22px;
-    top: 22px;
+    background-color: white;
+    border: none;  
+    left: 765px;
+    top: 20px;
 }
 .popup-text::before{
     position: absolute;
@@ -927,6 +925,7 @@ span{
     margin-left: 16px;
     padding-bottom: 10px;
 }
+
 .popup-paragraph{
     font-weight: normal;
     font-size: 16px;
@@ -1013,18 +1012,7 @@ span{
     align-items: center;
     justify-content: center;
 }
-.popup-close{
-    position: absolute;
-    content: "";
-    top: 10px;
-    right: 10px;
-    text-decoration: none;
-    left: 23.48%;
-right: 23.48%;
-top: 23.48%;
-bottom: 23.48%;
-background: #20242D;
-}
+
 
 
 
@@ -1032,15 +1020,12 @@ background: #20242D;
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: black;
-    opacity: 0.9;
+    background-color: rgba(32, 36, 45, 0.9);
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-
-    display: none;
-    opacity: 0;
+display: none;
     
 }
 .popup-middel-body{
@@ -1049,7 +1034,6 @@ background: #20242D;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
 }
 .popup-middle-text{
     width: 100%;
@@ -1059,16 +1043,16 @@ background: #20242D;
     position: relative;
     content: "";
 }
-.popup-middle-text::after{
+.closebtn-middle .closebtn{
     position: absolute;
     content: "";
     background-image: url(../img/closew.svg);
     width: 13px;
     height: 13px;
-    background-color: none;
+    background-color: #FF7129;
     border: none;
-    right: 22px;
-    top: 22px;
+    top: 21px;
+    left: 765px;
 }
 .subtitle{
     font-weight: bold;
@@ -1148,15 +1132,13 @@ background: #20242D;
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: black;
-    opacity: 0.9;
+    background-color: rgba(32, 36, 45, 0.9);
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 
-    display: none;
-    opacity: 0;
+display: none;
    
 }
 .popup-finish-body{
@@ -1178,17 +1160,6 @@ background: #20242D;
     position: relative;
     content: "";
 }
-.popup-finish-text::after{
-    position: absolute;
-    content: "";
-    background-image: url(../img/closew.svg);
-    width: 13px;
-    height: 13px;
-    background-color: none;
-    border: none;
-    right: 22px;
-    top: 22px;
-}
 .popup-finish-text::before{
     position: absolute;
     content: "";
@@ -1198,6 +1169,17 @@ background: #20242D;
     background-color: none;
     border: none;
     top: 93px;
+}
+.closebtn-finish .closebtn{
+   position: absolute;
+    content: "";
+    background-image: url(../img/closew.svg);
+    width: 13px;
+    height: 13px;
+    background-color: #FF7129;
+    border: none;  
+    left: 765px;
+    top: 20px;
 }
 
 .finisf-title{
@@ -1222,15 +1204,13 @@ padding-top: 24px;
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: black;
-    opacity: 0.9;
+    background-color: rgba(32, 36, 45, 0.9);
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 
-display: none;
-    
+    display: none;
 }
 .popup-footer-body{
     width: 100%;
@@ -1250,24 +1230,24 @@ display: none;
     position: relative;
     content: "";
 }
-.popup-footer-text::after{
+.closebtn-footer .closebtn{
     position: absolute;
     content: "";
     background-image: url(../img/closeblack.svg);
     width: 13px;
     height: 13px;
-    background-color: none;
-    border: none;
-    right: 22px;
-    top: 22px;
+    background-color: white;
+    border: none;  
+    left: 765px;
+    top: 20px;
 }
-
 .popup-footer-text .title-subtitle{
     margin-left: 17px;
 }
 .popup-footer-box{
     display: flex;
     align-items: center;
+    max-width: 668px;
     padding-top: 64px;
     padding-bottom: 57px;
 }
@@ -1297,4 +1277,3 @@ display: none;
     top: 28px;
     left: 32px;
 }
-
