@@ -49,3 +49,10 @@ const CloseButtonFooter=document.querySelector('.closebtn-footer .closebtn')
 CloseButtonFooter.addEventListener('click', function(){
     PopupFooter.classList.remove('popup-footer-body')
 })
+
+const FooterButtonOk=document.querySelector('.footer-finish-btn .popup-button')
+const FooterFinishButton=document.querySelector('.popup-finish')
+FooterButtonOk.addEventListener('click', function(){
+    PopupFooter.classList.remove('popup-footer-body')
+    FooterFinishButton.classList.add('popup-finish-body')
+})
