@@ -56,3 +56,12 @@ FooterButtonOk.addEventListener('click', function(){
     PopupFooter.classList.remove('popup-footer-body')
     FooterFinishButton.classList.add('popup-finish-body')
 })
+
+const MiddleButtonBack=document.querySelector('.popup-middle-btn .midlle-btn')
+const PopupMiddelBack=document.querySelector('.popup-middle')
+const PopupBack=document.querySelector('.popup')
+MiddleButtonBack.addEventListener('click', function() {
+    PopupMiddelBack.classList.remove('popup-middle-body')
+    PopupBack.classList.add('popup-body')
+    MiddleButtonBack.classList.add('popup-body')
+})
