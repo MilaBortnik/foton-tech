@@ -396,6 +396,8 @@
 .main-section-about{
     width: 100%;
     background-image:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), url(../img/fononas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     height: 350px;
     position: relative;
     content: "";
@@ -650,6 +652,8 @@ text-decoration: none;
 .section-installation{
     width: 100%;
     background-image:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), url(../img/foninstal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 412px;
     position: relative;
     content: "";
