@@ -689,8 +689,8 @@ text-decoration: none;
     border: #FFFFFF;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:  #FFFFFF;
-    bottom: -25px;
-    right: -21px;
+    bottom: 0;
+    right: 0;
 }
 .title-installation{
     font-weight: bold;
