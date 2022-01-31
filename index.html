@@ -49,7 +49,7 @@
             <h1 class="main-titel" >Panele Fotowoltaiczne</h1>
             <p class="main-paragraph">Kompleksowe usługi w zakresie montażu i podłączenia paneli <br>łonecznych.</p>
             <div class="main-button"> 
-                <button class="button-main">Obliczyć koszt</button>
+                <button type="submit" class="button-main">Obliczyć koszt</button>
             </div>
         </section>
         <section class="main-section-text">
@@ -104,7 +104,11 @@
     <div  class="popup">
         <div class="popup-body"> 
             <div class="popup-text">  
-                <h1 class="title-subtitle">Obliczyć koszt</h1>
+                <div class="closebtn">
+                    <button class="closebtn"></button>
+                </div>
+                <section class="popup-box-main"> 
+                    <h1 class="title-subtitle">Obliczyć koszt</h1>
                 <p class="popup-paragraph">Wprowadź swoje dane, aby obliczyć przybliżony koszt paneli słonecznych.</p>
                 <div class="popup-box">
                     <span class="popup-list">Roczne zużycie energii elektrycznej</span>
@@ -112,34 +116,34 @@
                  <div>
                     <input class="popup-range" type="range" name="" id="">
                  </div>
-                 <div class="popur-box-one"> 
-                    <span class="popup-list-two">Strona świata</span>
-                    <span class="popup-list-two">Materiał dachu</span>
-                 </div>
-                 <div class="popup-input">
-                    <div>
-                        <input class="popup-input-one" type="text" name="" value=""> 
-                    </div>
-                    <div>
-                        <input class="popup-input-two" type="text" name="" value="">
-                    </div>
-                 </div>
+                </section>
+                 <section class="popup-box-input"> 
+                    <label class="popup-lable">Strona świata
+                        <input class="popup-input" type="text" name="" id="" placeholder="Wybierz z listy" required> 
+                    </label>
+                    <label class="popup-lable">Materiał dachu
+                        <input class="popup-input" type="text" name="" id="" placeholder="Wybierz z listy" required>
+                    </label>
+                 </section>
                  <div class="btn-popup">
-                    <button class="popup-button">Obliczyć</button>
-                 </div>
+                    <button type="submit"class="popup-button">Obliczyć</button>
+                 </div>   
             </div>        
         </div>   
     </div> 
     <div class="popup-middle">
-        <div class="popup-middel-body">
+        <div class="popup-middle-body">
             <div class="popup-middle-text">
                 <section class="popup-middle-box"> 
                     <div class="middle-text">
+                        <div class="closebtn-middle">
+                            <button type="submit" class="closebtn"></button>
+                        </div>
                         <p class="middle-subtitle">Przybliżony koszt:</p>
                          <p class="subtitle">40 000 zł</p>
                     </div>
                     <div class="popup-middle-btn">
-                        <button class="midlle-btn">Przeliczyć</button>
+                        <button type="submit" class="midlle-btn">Przeliczyć</button>
                     </div>
                 </section>
                 <section class="popup-section-box"> 
@@ -149,21 +153,24 @@
                     </div>
                     <div class="popup-middle-list"> 
                         <div class="middle-list">
-                            <p class="popup-list-two">Twoje imię</p>
-                            <input class="input-middle-one" type="text">
+                            <label class="popup-lable">Twoje imię
+                                <input class="popup-input" type="text" name="" id="" placeholder="Wprowadź swoje imię" required>
+                            </label>
                          </div>
                         <div class="middle-list">
-                            <p class="popup-list-two">E-mail</p>
-                            <input class="input-middle-one" type="text">
+                            <label class="popup-lable">E-mail
+                                <input class="popup-input" type="text" name="" id="" placeholder="Wprowadź mail" required>
+                            </label>   
                          </div>
                     </div>
-                   <div class="popup-middle-list-one">
-                    <div class="middle-list-one"> 
-                        <p class="popup-list-two">Telefon</p>
-                        <input class="input-middle-one" type="text">
-                    </div>
+                   <div class="popup-middle-list-one">  
+                       <div class="middle-div"> 
+                        <label class="popup-lable">Telefon
+                            <input class="popup-input" type="text" name="" id="" placeholder="Wprowadź telefon" required>
+                        </label> 
+                       </div> 
                     <div class="popup-middle-button">
-                        <button class="popup-button">Wysłać prośbę</button>
+                        <button type="submit" class="popup-button">Wysłać prośbę</button>
                     </div>
                 </div>    
                 </section>
@@ -173,6 +180,9 @@
     <div class="popup-finish">
         <div class="popup-finish-body"> 
             <div class="popup-finish-text"> 
+                <div class="closebtn-finish">
+                    <button class="closebtn"></button>
+                </div>
                 <h1 class="finisf-title"> Dziękuję za twoją prośbę</h1>
                 <p class="finish-paragraph"> Nasz menedżer wkrótce się z Tobą skontaktuje</p>
                 <div class="finish-btn">
@@ -185,20 +195,27 @@
     <div class="popup-footer">
         <div class="popup-footer-body"> 
             <div class="popup-footer-text">
-                <h1 class="title-subtitle"> Oddzwoń</h1>
-                <p class="popup-paragraph">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje pytania.</p>
-                <div class="popup-footer-box">
-                    <div>
-                        <p class="popup-list-two"> Twoje imię</p>
-                    <input class="input-middle-one" type="text">
-                    </div>
-                    <div> <p class="popup-list-two">Telefon</p>
-                        <input class="input-middle-one" type="text"> 
-                    </div>      
-                </div>   
-                <button class="popup-button"> Zadzwoń</button>
+                <div class="closebtn-footer">
+                    <button type="submit" class="closebtn"></button>
+                </div>
+                 <section class="popup-footer-main-box">
+                    <h1 class="title-subtitle"> Oddzwoń</h1>
+                    <p class="popup-paragraph">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje pytania.</p>     
+                </section> 
+                <section class="popup-footer-box">
+                        <label class="popup-lable"> Twoje imię
+                            <input class="popup-input" type="text" name="" id="" placeholder="Wprowadź swoje imię" required>
+                        </label>
+                        <label class="popup-lable">Telefon
+                            <input class="popup-input" type="text" name="" id="" placeholder="Wprowadź telefon" required> 
+                        </label>     
+                </section>   
+                <div class="footer-finish-btn"> 
+                    <button type="submit" class="popup-button"> Zadzwoń</button>
+                </div>
             </div>
         </div>
-    </div>
+    </div>   
+    <script src="js/main.js"></script> 
 </body>
 </html>
